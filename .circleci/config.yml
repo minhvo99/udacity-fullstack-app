@@ -36,6 +36,12 @@ jobs:
           command: |
             echo "TODO: Build the frontend app"
             npm run frontend:build
+      # TOTO: Build the backend API
+      - run:
+          name: API Indysll
+          command: |
+            echo "TODO: Install dependencies in the the backend AP"
+            npm run api:install
       # TODO: Build the backend API
       - run:
           name: API Build
